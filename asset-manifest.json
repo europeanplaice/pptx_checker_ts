@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/pptx_checker_ts/static/css/main.831583b8.css",
-    "main.js": "/pptx_checker_ts/static/js/main.706dcebc.js",
+    "main.js": "/pptx_checker_ts/static/js/main.32eaf41f.js",
     "static/js/787.88208c14.chunk.js": "/pptx_checker_ts/static/js/787.88208c14.chunk.js",
     "index.html": "/pptx_checker_ts/index.html",
     "main.831583b8.css.map": "/pptx_checker_ts/static/css/main.831583b8.css.map",
-    "main.706dcebc.js.map": "/pptx_checker_ts/static/js/main.706dcebc.js.map",
+    "main.32eaf41f.js.map": "/pptx_checker_ts/static/js/main.32eaf41f.js.map",
     "787.88208c14.chunk.js.map": "/pptx_checker_ts/static/js/787.88208c14.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.831583b8.css",
-    "static/js/main.706dcebc.js"
+    "static/js/main.32eaf41f.js"
   ]
 }
