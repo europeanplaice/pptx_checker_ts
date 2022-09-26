@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import ReactGA from "react-ga4";
+import { Helmet } from "react-helmet"
 var JSZip = require("jszip");
 
 ReactGA.initialize("G-VD84Q5CF27");
@@ -89,8 +90,15 @@ class App extends Component {
   render = () => {
     return (
       <div className='container'>
+        <Helmet>
+          <title>Powerpoint layout validator</title>
+          <meta
+              name="description"
+              content="It probes the pptx file you upload and extract the fonts used in it."
+          />
+        </Helmet>
         <h1>PowerPoint Font Checker</h1>
-        <p>It probes the pptx file you upload and extract the fonts used in it. </p>
+        <p>It probes the pptx file you upload and extract the fonts used in it. It is currently under development.</p>
         <p><b> The analysis is done in the browser. This webside doesn't save your file to servers.</b></p>
         <input type="file" onChange={(e) => this.showFile(e)} />
         <div id="font_flag"></div>
