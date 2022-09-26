@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
+import ReactGA from "react-ga4";
 var JSZip = require("jszip");
 
+ReactGA.initialize("G-VD84Q5CF27");
+ReactGA.send("pageview");
 class App extends Component {
 
   showFile = async (e: any) => {
