@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
 import { VscPass, VscError } from "react-icons/vsc";
+import ReactGA from "react-ga4";
 var JSZip = require("jszip");
+
+ReactGA.initialize("G-VD84Q5CF27");
+ReactGA.send("pageview");
 
 type ObjInfo = {
   page: number,
