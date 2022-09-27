@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import { VscPass, VscError } from "react-icons/vsc";
 import ReactGA from "react-ga4";
+import { Helmet } from "react-helmet"
+
 var JSZip = require("jszip");
 
 ReactGA.initialize("G-VD84Q5CF27");
@@ -47,7 +49,7 @@ export function get_name_and_font(pptx_elem: Element, index: number): ObjInfo | 
     if (srgbClr){
       let val = srgbClr.getAttribute("val");
       if (val) {
-        fontcolor = val;
+        fontcolor = "#" + val;
       } else {
         fontcolor = "default";
       }
@@ -164,6 +166,13 @@ class App extends Component<any, appstate> {
   render = () => {
     return (
       <div className='container'>
+        <Helmet>
+          <title>Powerpoint layout validator</title>
+          <meta
+              name="description"
+              content="It examines the pptx file you upload and extracts the fonts used in it."
+          />
+        </Helmet>
         <h1>Check Your PowerPoint Before You Publish</h1>
         <div className='description'>
           <p>It examines the pptx file you upload and extracts the fonts used in it. Currently, it only can inspect font information and the results of the analysis may not be correct.</p>
@@ -208,6 +217,13 @@ class App extends Component<any, appstate> {
           </div>
           : null
         }
+      <footer>
+        <p>© Tomohiro Endo
+          <address>
+            <a href="https://github.com/europeanplaice/pptx_checker_ts">https://github.com/europeanplaice/pptx_checker_ts</a>
+          </address>
+        </p>
+      </footer>
       </div>
     )
   }
