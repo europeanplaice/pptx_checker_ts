@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/pptx_checker_ts/static/css/main.8de88ff8.css",
-    "main.js": "/pptx_checker_ts/static/js/main.806cd39c.js",
+    "main.css": "/pptx_checker_ts/static/css/main.7ba391e0.css",
+    "main.js": "/pptx_checker_ts/static/js/main.cd66bd87.js",
     "static/js/787.88208c14.chunk.js": "/pptx_checker_ts/static/js/787.88208c14.chunk.js",
     "index.html": "/pptx_checker_ts/index.html",
-    "main.8de88ff8.css.map": "/pptx_checker_ts/static/css/main.8de88ff8.css.map",
-    "main.806cd39c.js.map": "/pptx_checker_ts/static/js/main.806cd39c.js.map",
+    "main.7ba391e0.css.map": "/pptx_checker_ts/static/css/main.7ba391e0.css.map",
+    "main.cd66bd87.js.map": "/pptx_checker_ts/static/js/main.cd66bd87.js.map",
     "787.88208c14.chunk.js.map": "/pptx_checker_ts/static/js/787.88208c14.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8de88ff8.css",
-    "static/js/main.806cd39c.js"
+    "static/css/main.7ba391e0.css",
+    "static/js/main.cd66bd87.js"
   ]
 }
