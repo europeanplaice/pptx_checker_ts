@@ -42,6 +42,35 @@
   margin: 0 auto;
 }
 
-#font_flag {
+.description{
+  width: 60%
+}
+
+.flag {
+  margin-bottom: 0.5em;
   font-size: 1.2em;
+  display: flex;
+}
+
+.flag > *{
+  margin-right: 0.5em;
+}
+
+.fonts {
+  width: 60%;
+  display: flex;
+  border-bottom: solid 1px;;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  justify-content: center;
+  text-align: center;
+}
+
+.fontelem{
+  margin-right: 0.5em;
+  width: 30%;
+}
+
+#font {
+  margin-left: 1em;
 }
