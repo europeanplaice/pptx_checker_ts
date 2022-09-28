@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 import { VscPass, VscError } from "react-icons/vsc";
 import ReactGA from "react-ga4";
-import { Helmet } from "react-helmet"
 
 var JSZip = require("jszip");
 
@@ -166,14 +165,6 @@ class App extends Component<any, appstate> {
   render = () => {
     return (
       <div className='container'>
-        <Helmet>
-          <title>Powerpoint layout validator</title>
-          <meta
-              name="description"
-              content="It examines the pptx file you upload and extracts the fonts used in it."
-          />
-          <meta name="google-site-verification" content="bNLjoQ1az8fCfRUq6T8aRGd4S960DFbWyrnbLQnHDdU" />
-        </Helmet>
         <h1>Check Your PowerPoint Before You Publish</h1>
         <div className='description'>
           <p>It examines the pptx file you upload and extracts the fonts used in it. Currently, it only can inspect font information and the results of the analysis may not be correct.</p>
